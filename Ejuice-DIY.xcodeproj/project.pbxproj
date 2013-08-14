@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE6CFC0717BBB7B4005D692B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6CFC0617BBB7B4005D692B /* Cocoa.framework */; };
+		CE6CFC1117BBB7B4005D692B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE6CFC0F17BBB7B4005D692B /* InfoPlist.strings */; };
+		CE6CFC1317BBB7B4005D692B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6CFC1217BBB7B4005D692B /* main.m */; };
+		CE6CFC1717BBB7B4005D692B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CE6CFC1517BBB7B4005D692B /* Credits.rtf */; };
+		CE6CFC1A17BBB7B4005D692B /* EJuiceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6CFC1917BBB7B4005D692B /* EJuiceAppDelegate.m */; };
+		CE6CFC1D17BBB7B4005D692B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6CFC1B17BBB7B4005D692B /* MainMenu.xib */; };
+		CE6CFC2017BBB7B4005D692B /* Ejuice_DIY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE6CFC1E17BBB7B4005D692B /* Ejuice_DIY.xcdatamodeld */; };
+		CE6CFC2817BBB7B5005D692B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6CFC2717BBB7B5005D692B /* SenTestingKit.framework */; };
+		CE6CFC2917BBB7B5005D692B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6CFC0617BBB7B4005D692B /* Cocoa.framework */; };
+		CE6CFC3117BBB7B5005D692B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE6CFC2F17BBB7B5005D692B /* InfoPlist.strings */; };
+		CE6CFC3417BBB7B5005D692B /* Ejuice_DIYTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6CFC3317BBB7B5005D692B /* Ejuice_DIYTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE6CFC2A17BBB7B5005D692B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6CFBFB17BBB7B4005D692B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6CFC0217BBB7B4005D692B;
+			remoteInfo = "Ejuice-DIY";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE6CFC0317BBB7B4005D692B /* Ejuice-DIY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ejuice-DIY.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6CFC0617BBB7B4005D692B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CE6CFC0917BBB7B4005D692B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CE6CFC0A17BBB7B4005D692B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE6CFC0B17BBB7B4005D692B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE6CFC0E17BBB7B4005D692B /* Ejuice-DIY-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ejuice-DIY-Info.plist"; sourceTree = "<group>"; };
+		CE6CFC1017BBB7B4005D692B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE6CFC1217BBB7B4005D692B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE6CFC1417BBB7B4005D692B /* Ejuice-DIY-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ejuice-DIY-Prefix.pch"; sourceTree = "<group>"; };
+		CE6CFC1617BBB7B4005D692B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CE6CFC1817BBB7B4005D692B /* EJuiceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EJuiceAppDelegate.h; sourceTree = "<group>"; };
+		CE6CFC1917BBB7B4005D692B /* EJuiceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EJuiceAppDelegate.m; sourceTree = "<group>"; };
+		CE6CFC1C17BBB7B4005D692B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CE6CFC1F17BBB7B4005D692B /* Ejuice_DIY.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ejuice_DIY.xcdatamodel; sourceTree = "<group>"; };
+		CE6CFC2617BBB7B5005D692B /* Ejuice-DIYTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ejuice-DIYTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6CFC2717BBB7B5005D692B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE6CFC2E17BBB7B5005D692B /* Ejuice-DIYTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ejuice-DIYTests-Info.plist"; sourceTree = "<group>"; };
+		CE6CFC3017BBB7B5005D692B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE6CFC3217BBB7B5005D692B /* Ejuice_DIYTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ejuice_DIYTests.h; sourceTree = "<group>"; };
+		CE6CFC3317BBB7B5005D692B /* Ejuice_DIYTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ejuice_DIYTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6CFC0017BBB7B4005D692B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6CFC0717BBB7B4005D692B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6CFC2217BBB7B5005D692B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6CFC2817BBB7B5005D692B /* SenTestingKit.framework in Frameworks */,
+				CE6CFC2917BBB7B5005D692B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE6CFBFA17BBB7B4005D692B = {
+			isa = PBXGroup;
+			children = (
+				CE6CFC0C17BBB7B4005D692B /* Ejuice-DIY */,
+				CE6CFC2C17BBB7B5005D692B /* Ejuice-DIYTests */,
+				CE6CFC0517BBB7B4005D692B /* Frameworks */,
+				CE6CFC0417BBB7B4005D692B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6CFC0417BBB7B4005D692B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CFC0317BBB7B4005D692B /* Ejuice-DIY.app */,
+				CE6CFC2617BBB7B5005D692B /* Ejuice-DIYTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6CFC0517BBB7B4005D692B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CFC0617BBB7B4005D692B /* Cocoa.framework */,
+				CE6CFC2717BBB7B5005D692B /* SenTestingKit.framework */,
+				CE6CFC0817BBB7B4005D692B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE6CFC0817BBB7B4005D692B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CFC0917BBB7B4005D692B /* AppKit.framework */,
+				CE6CFC0A17BBB7B4005D692B /* CoreData.framework */,
+				CE6CFC0B17BBB7B4005D692B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CE6CFC0C17BBB7B4005D692B /* Ejuice-DIY */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CFC1817BBB7B4005D692B /* EJuiceAppDelegate.h */,
+				CE6CFC1917BBB7B4005D692B /* EJuiceAppDelegate.m */,
+				CE6CFC1B17BBB7B4005D692B /* MainMenu.xib */,
+				CE6CFC1E17BBB7B4005D692B /* Ejuice_DIY.xcdatamodeld */,
+				CE6CFC0D17BBB7B4005D692B /* Supporting Files */,
+			);
+			path = "Ejuice-DIY";
+			sourceTree = "<group>";
+		};
+		CE6CFC0D17BBB7B4005D692B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CFC0E17BBB7B4005D692B /* Ejuice-DIY-Info.plist */,
+				CE6CFC0F17BBB7B4005D692B /* InfoPlist.strings */,
+				CE6CFC1217BBB7B4005D692B /* main.m */,
+				CE6CFC1417BBB7B4005D692B /* Ejuice-DIY-Prefix.pch */,
+				CE6CFC1517BBB7B4005D692B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE6CFC2C17BBB7B5005D692B /* Ejuice-DIYTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CFC3217BBB7B5005D692B /* Ejuice_DIYTests.h */,
+				CE6CFC3317BBB7B5005D692B /* Ejuice_DIYTests.m */,
+				CE6CFC2D17BBB7B5005D692B /* Supporting Files */,
+			);
+			path = "Ejuice-DIYTests";
+			sourceTree = "<group>";
+		};
+		CE6CFC2D17BBB7B5005D692B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CFC2E17BBB7B5005D692B /* Ejuice-DIYTests-Info.plist */,
+				CE6CFC2F17BBB7B5005D692B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6CFC0217BBB7B4005D692B /* Ejuice-DIY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6CFC3717BBB7B5005D692B /* Build configuration list for PBXNativeTarget "Ejuice-DIY" */;
+			buildPhases = (
+				CE6CFBFF17BBB7B4005D692B /* Sources */,
+				CE6CFC0017BBB7B4005D692B /* Frameworks */,
+				CE6CFC0117BBB7B4005D692B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ejuice-DIY";
+			productName = "Ejuice-DIY";
+			productReference = CE6CFC0317BBB7B4005D692B /* Ejuice-DIY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE6CFC2517BBB7B5005D692B /* Ejuice-DIYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6CFC3A17BBB7B5005D692B /* Build configuration list for PBXNativeTarget "Ejuice-DIYTests" */;
+			buildPhases = (
+				CE6CFC2117BBB7B5005D692B /* Sources */,
+				CE6CFC2217BBB7B5005D692B /* Frameworks */,
+				CE6CFC2317BBB7B5005D692B /* Resources */,
+				CE6CFC2417BBB7B5005D692B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6CFC2B17BBB7B5005D692B /* PBXTargetDependency */,
+			);
+			name = "Ejuice-DIYTests";
+			productName = "Ejuice-DIYTests";
+			productReference = CE6CFC2617BBB7B5005D692B /* Ejuice-DIYTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6CFBFB17BBB7B4005D692B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EJuice;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alexandre Cloquet";
+			};
+			buildConfigurationList = CE6CFBFE17BBB7B4005D692B /* Build configuration list for PBXProject "Ejuice-DIY" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE6CFBFA17BBB7B4005D692B;
+			productRefGroup = CE6CFC0417BBB7B4005D692B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6CFC0217BBB7B4005D692B /* Ejuice-DIY */,
+				CE6CFC2517BBB7B5005D692B /* Ejuice-DIYTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6CFC0117BBB7B4005D692B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6CFC1117BBB7B4005D692B /* InfoPlist.strings in Resources */,
+				CE6CFC1717BBB7B4005D692B /* Credits.rtf in Resources */,
+				CE6CFC1D17BBB7B4005D692B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6CFC2317BBB7B5005D692B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6CFC3117BBB7B5005D692B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE6CFC2417BBB7B5005D692B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6CFBFF17BBB7B4005D692B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6CFC1317BBB7B4005D692B /* main.m in Sources */,
+				CE6CFC1A17BBB7B4005D692B /* EJuiceAppDelegate.m in Sources */,
+				CE6CFC2017BBB7B4005D692B /* Ejuice_DIY.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6CFC2117BBB7B5005D692B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6CFC3417BBB7B5005D692B /* Ejuice_DIYTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE6CFC2B17BBB7B5005D692B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6CFC0217BBB7B4005D692B /* Ejuice-DIY */;
+			targetProxy = CE6CFC2A17BBB7B5005D692B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE6CFC0F17BBB7B4005D692B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6CFC1017BBB7B4005D692B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE6CFC1517BBB7B4005D692B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6CFC1617BBB7B4005D692B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CE6CFC1B17BBB7B4005D692B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6CFC1C17BBB7B4005D692B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CE6CFC2F17BBB7B5005D692B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6CFC3017BBB7B5005D692B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6CFC3517BBB7B5005D692B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE6CFC3617BBB7B5005D692B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE6CFC3817BBB7B5005D692B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ejuice-DIY/Ejuice-DIY-Prefix.pch";
+				INFOPLIST_FILE = "Ejuice-DIY/Ejuice-DIY-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE6CFC3917BBB7B5005D692B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ejuice-DIY/Ejuice-DIY-Prefix.pch";
+				INFOPLIST_FILE = "Ejuice-DIY/Ejuice-DIY-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE6CFC3B17BBB7B5005D692B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ejuice-DIY.app/Contents/MacOS/Ejuice-DIY";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ejuice-DIY/Ejuice-DIY-Prefix.pch";
+				INFOPLIST_FILE = "Ejuice-DIYTests/Ejuice-DIYTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE6CFC3C17BBB7B5005D692B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ejuice-DIY.app/Contents/MacOS/Ejuice-DIY";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ejuice-DIY/Ejuice-DIY-Prefix.pch";
+				INFOPLIST_FILE = "Ejuice-DIYTests/Ejuice-DIYTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6CFBFE17BBB7B4005D692B /* Build configuration list for PBXProject "Ejuice-DIY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6CFC3517BBB7B5005D692B /* Debug */,
+				CE6CFC3617BBB7B5005D692B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6CFC3717BBB7B5005D692B /* Build configuration list for PBXNativeTarget "Ejuice-DIY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6CFC3817BBB7B5005D692B /* Debug */,
+				CE6CFC3917BBB7B5005D692B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE6CFC3A17BBB7B5005D692B /* Build configuration list for PBXNativeTarget "Ejuice-DIYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6CFC3B17BBB7B5005D692B /* Debug */,
+				CE6CFC3C17BBB7B5005D692B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE6CFC1E17BBB7B4005D692B /* Ejuice_DIY.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE6CFC1F17BBB7B4005D692B /* Ejuice_DIY.xcdatamodel */,
+			);
+			currentVersion = CE6CFC1F17BBB7B4005D692B /* Ejuice_DIY.xcdatamodel */;
+			path = Ejuice_DIY.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE6CFBFB17BBB7B4005D692B /* Project object */;
+}
